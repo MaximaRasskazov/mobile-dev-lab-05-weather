@@ -9,6 +9,20 @@ class WeatherException implements Exception {
   WeatherException(this.message);
 }
 
+/*
+{
+  "results": [
+    {
+      "id": 1503772,
+      "name": "Ханты-Мансийск",
+      "country": "Россия",
+      "latitude": 61.00187,
+      "longitude": 69.02728
+    }
+  ]
+}
+*/
+
 class WeatherApiClient {
   final http.Client client;
 
